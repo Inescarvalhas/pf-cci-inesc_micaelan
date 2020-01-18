@@ -1,20 +1,20 @@
-function setup(){
-
-  createCanvas(windowWidth,windowHeight);
-
-
+let img;
+function preload() {
 }
 
+function setup(){ // happens once
 
-function draw() {
-  background(240);
-  strokeWeight(2);
+  createCanvas (windowWidth,windowHeight);
+  background(50); // 1
+}
 
-  line(width/2, height/2, mouseX, mouseY);
-  line(width/2, height/2,mouseX,height/2);
-  line(mouseX, mouseY,mouseX,height/2);
+function mousePressed () { // Event
+}
 
-  textSize(width / 50);
-  text(dist(width/2, height/2, mouseX, mouseY),50,50);
+function draw() { // happens forever.. loop
+  background(50); // Fundo,Fundo,Fundo
 
+  textSize(20);
+  text ( 'Espectro Eletromagnético',70,30);
+  fill(255);
 }
