@@ -1,7 +1,7 @@
 let img;
 
 function preload() { // runs once
-  img = loadImage ('images/planet earth.jpg');
+  img = loadImage ( 'C:\Users\Asus\Documents\GitHub\pf-cci-inesc_micaelan\images/planet earth.jpg')
 }
 
 function setup(){ // happens once
