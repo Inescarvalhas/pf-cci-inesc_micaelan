@@ -18,10 +18,8 @@ earth = loadImage ('https://raw.githubusercontent.com/ESELX/pf-cci-inesc_micaela
 }
 
 function setup() { // happens once
-  createCanvas (window.innerWidth, window.innerHeight);
-
-  background (0); // 0 preto 255 branco; // Fundo,Fundo,Fundo
-
+createCanvas (window.innerWidth, window.innerHeight);
+background (0); // 0 preto 255 branco; // Fundo,Fundo,Fundo
 }
 
 
@@ -64,10 +62,9 @@ function draw() { // happens forever.. loop
   button7 = createButton ('Gamma');
   button7.position (width-210,height-75);
   button7.mousePressed (changeGamma);
-
-
-
 }
+
+
 function changeRadio() {
 }
 function changeMicrowave() {
