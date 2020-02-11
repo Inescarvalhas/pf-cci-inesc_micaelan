@@ -51,7 +51,7 @@ function draw() { // happens forever.. loop
 
      strokeWeight(20);
     stroke(158, 207, 231);
-    circle(769,361, 350);
+    circle(769,361, 351);
 
 
   image (sky, 0 , 0, window.innerWidth, window.innerHeight);
